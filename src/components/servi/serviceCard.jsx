@@ -1,19 +1,16 @@
-<div className='serviceCard'>
-  <div className='icon'>
-    <i className='fa fa-facebook-official' aria-hidden='true'></i>
-  </div>
-  <div className='text'>
-    <h3>Air Freight</h3>
-    <p className='servP'>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum harum fuga ut
-      incidunt adipisci magni!
-    </p>
-    <a href='###'>Learn more</a>
-  </div>
-</div>;
+import Icon from '../UI/icon';
 
-function Card(props) {
-    return (
-        
-    )
+export default function Card({ icon, title, summary }) {
+  return (
+    <div className='serviceCard'>
+      <div className='iconInf'>
+        <Icon icon={icon} />
+      </div>
+      <div className='text'>
+        <h3>{title}</h3>
+        <p className='servP'>{summary}</p>
+        <a href='###'>Learn more</a>
+      </div>
+    </div>
+  );
 }
