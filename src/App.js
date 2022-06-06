@@ -1,4 +1,5 @@
 import './App.css';
+import Icon from './components/UI/icon';
 
 function App() {
   return (
@@ -9,8 +10,8 @@ function App() {
       </section>
       <section className='serviceCards'>
         <div className='serviceCard'>
-          <div className='icon'>
-            <i className='fa fa-facebook-official' aria-hidden='true'></i>
+          <div className='iconInf'>
+            <Icon icon='fa-plane' />
           </div>
           <div className='text'>
             <h3>Air Freight</h3>
