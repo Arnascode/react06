@@ -31,9 +31,13 @@ body {
   margin-right: 50px;
 }
 
-.serviceCards {
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .serviceCard {
   display: grid;
@@ -48,4 +52,10 @@ a {
 .iconInf {
   font-size: 30px;
   color: orange;
+}
+button {
+  padding: 15px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 20px;
 }
